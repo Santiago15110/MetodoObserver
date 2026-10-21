@@ -21,7 +21,7 @@ public class Main {
         System.out.println("=== Suscripciones ===");
         libro.suscribir(notiAna);
         libro.suscribir(notiLuis);
-        System.out.println("Ana y Luis se suscribieron a \"" + libro.getTitulo() + "\"");
+        System.out.println("Ana y Luis se suscribieron a  \"" + libro.getTitulo() + "\"");
 
         System.out.println("\n=== Luis cancela su suscripción ===");
         libro.cancelar(notiLuis);
